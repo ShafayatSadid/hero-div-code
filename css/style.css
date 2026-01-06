@@ -11,7 +11,7 @@
 header{
     background-color: #FFF8F3 ;
     padding-top: 50px;
-    background: url("../images/developer.png"), url("../images/header_bg.png");
+    background: url("../images/developer.png"), url("../images/header_bg.png")  #FFF8F3;
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
 }
@@ -93,3 +93,93 @@ nav ul li{
     max-width: 584px;
     vertical-align: middle;
 }
+
+.about{
+    padding-top: 130px;
+}
+
+.about-section{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+.about-header, .skill-heading{
+    max-width: 827px;
+    margin: 0 auto;
+}
+
+.about-header h2, .skill-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-header p, .skill-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.info-card p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-card h4{
+    font-size: 20px;
+    color: #181818;
+}
+
+#skill{
+    padding-top: 130px;
+}
+
+.skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skill-box{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-card{
+    
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #0000001a;
+}
+
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;   
+}
+
+.skill-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+
